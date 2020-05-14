@@ -7,7 +7,7 @@ string=
     element_index=0 
     while element_index<src[row_index].count
     if src[row_index][element_index].class==string
-    string=string+ src[row_index][element_index]
+    string=string+p src[row_index][element_index]
   end
     element_index+=1
   end
